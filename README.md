@@ -5,6 +5,16 @@ An IR remote controls the system power, while LEDs and a buzzer provide feedback
 
 ---
 
+## Demo
+
+Here’s a comparison of my Arduino heart rate and an Apple Watch:
+
+<p align="center">
+  <img src="heartbeat.jpg" width="400" alt="Heart rate comparison demo">
+</p>
+
+---
+
 ## Features
 - Measures heart rate using the PulseSensor  
 - Displays BPM on LCD  
@@ -15,11 +25,11 @@ An IR remote controls the system power, while LEDs and a buzzer provide feedback
 
 ## Components
 - Arduino Uno  
-- PulseSensor PPG Scanner 
+- PulseSensor PPG Scanner  
 - 16x2 LCD Display  
 - IR Receiver + Remote  
 - 3 LEDs (Red, Yellow, Green)  
-- Active Buzzer
+- Active Buzzer  
 - Jumper Wires / Breadboard  
 
 ---
@@ -57,5 +67,3 @@ An IR remote controls the system power, while LEDs and a buzzer provide feedback
 - `IRremote`
 - `PulseSensorPlayground`
 - `LiquidCrystal`
-
----
